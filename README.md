@@ -1,1 +1,1 @@
-#Bagisto Razorpay Payment Gateway
+Bagisto Razorpay Payment Gateway
