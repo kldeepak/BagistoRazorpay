@@ -1,0 +1,27 @@
+{
+    "name": "ramlashkar/BagistoRazorpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ram Lashkar",
+            "email": "ram012wise@gmail.com"
+        }
+    ],
+    "require": {
+        "razorpay/razorpay": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ramlashkar\\BagistoRazorpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ramlashkar\\BagistoRazorpay\\Providers\\BagistoRazorpayServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
